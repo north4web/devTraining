@@ -1,0 +1,90 @@
+body {
+	border-radius: 10px;
+	background-color: rgba(80, 130, 180, 0.8);
+
+	
+}
+
+input[type="radio" i] {
+    
+    cursor: pointer;
+    appearance: radio;
+    box-sizing: border-box;
+    margin: 1px 1px 1px 1px;
+  }
+
+
+
+/* section {
+	to center only buttons use this on the button container
+	
+	if you want to be in the middel vertically:
+	height: 100vh;
+} */
+
+
+form {
+	font-family: 'Henny Penny', cursive;
+	color: whitesmoke;
+	display: flex;
+	justify-content: center;
+
+}
+
+#buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+
+}
+
+button {
+	font-family: 'Henny Penny', cursive;
+	/*font-family: 'Grandstander', cursive;*/
+	margin-top: 5px;
+	background-color: rgb(80, 130, 180);
+	color:whitesmoke;
+	font-weight: 700;
+	font-size: 18px;
+	width: 230px;
+	height: 40px;
+	border: none;
+	border-radius: 10px 10px 0 0;
+	
+}
+
+button:hover {
+    background-color: skyblue;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+
+button:focus {
+    outline: none;
+ }
+
+img:nth-of-type(even) {
+	transform: scale(0.7);
+	transform: rotate(45deg);
+/*	transform: translate(20px, -50px);
+*/
+}
+
+img:nth-of-type(odd) {
+	transform: scale(1.1) skew(10deg);
+	
+}
+
+#box {
+	/*next 3 lines are to change the presentation*/
+	/*display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;*/
+	background-color: skyblue;
+	border-radius: 0 0 10px 10px;
+
+}

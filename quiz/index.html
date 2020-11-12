@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Quiz</h1>
+
+<h2>Total Points: <span id="score">0</span></h2>
+
+<form onsubmit="mySubmit(event)">
+<div>
+    <h3>Question 1 of 4</h3>
+    <h4>Inside which HTML element do we put the JavaScript?</h4>
+    <div>
+        <input type="radio" name="question1" id="answer1" value="script" required>
+        <label for="answer1">&ltscript&gt</label>
+    </div>
+    <div>
+        <input type="radio" name="question1" id="answer2" value="scripting">
+        <label for="answer2">&ltscripting&gt</label>
+    </div>
+    <div>
+        <input type="radio" name="question1" id="answer3" value="js">
+        <label for="answer3">&ltjs&gt</label>
+    </div>
+    <div>
+        <input type="radio" name="question1" id="answer4" value="javascript">
+        <label for="answer4">&ltjavascript&gt</label>
+    </div>
+
+</div><br>
+
+<div>
+    <h3>Question 2 of 4</h3>
+    <h4>What is the correct JavaScript syntax to change the content of the HTML element below?
+        <br><br>
+        &ltp id="demo"&gtThis is a demonstration.&lt/p&gt</h4>
+    <div>
+        <input type="radio" name="question2" id="answer5" value="document.getElement('p').innerHTML = 'Hello World!'" required>
+        <label for="answer5" >document.getElement("p").innerHTML = "Hello World!"</label>
+    </div>
+    <div>
+        <input type="radio" name="question2" id="answer6" value="document.getElementByName('p').innerHTML = 'Hello World!'">
+        <label for="answer6" >document.getElementByName("p").innerHTML = "Hello World!"</label>
+    </div>
+    <div>
+        <input type="radio" name="question2" id="answer7" value="document.getElementById('demo').innerHTML = 'Hello World!'">
+        <label for="answer7">document.getElementById("demo").innerHTML = "Hello World!"</label>
+    </div>
+    <div>
+        <input type="radio" name="question2" id="answer8" value="#demo.innerHTML = 'Hello World!'">
+        <label for="answer8" >#demo.innerHTML = "Hello World!"</label>
+    </div>
+
+</div><br>
+
+<div>
+    <h3>Question 3 of 4</h3>
+    <h4>How would you score teaching methods of Muhammad Hamad from 1 to 5, 5 being the highest?</h4>
+    <div>
+        <input type="radio" name="question3" id="answer9" value="1" required>
+        <label for="answer9">1</label>
+    </div>
+    <div>
+        <input type="radio" name="question3" id="answer10" value="3">
+        <label for="answer10">3</label>
+    </div>
+    <div>
+        <input type="radio" name="question3" id="answer11" value="4">
+        <label for="answer11">4</label>
+    </div>
+    <div>
+        <input type="radio" name="question3" id="answer12" value="5">
+        <label for="answer12">5</label>
+    </div>
+
+</div><br>
+
+<div>
+    <h3>Question 4 of 4</h3>
+    <h4>What color is the sky?</h4>
+    <div>
+        <input type="radio" name="question4" id="answer13" value="blue" required>
+        <label for="answer13">blue</label>
+    </div>
+    <div>
+        <input type="radio" name="question4" id="answer14" value="yellow">
+        <label for="answer14">yellow</label>
+    </div>
+    <div>
+        <input type="radio" name="question4" id="answer15" value="black">
+        <label for="answer15">black</label>
+    </div>
+    <div>
+        <input type="radio" name="question4" id="answer16" value="white">
+        <label for="answer16">white</label>
+    </div>
+
+</div><br>
+
+
+<button type="submit">Submit your answer</button>
+
+</form>
+
+
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
